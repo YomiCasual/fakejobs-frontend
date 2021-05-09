@@ -1,0 +1,36 @@
+.navBar {
+    padding: 1.2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-color);
+    position: top;
+    align-items: center;
+}
+
+.navBar p {
+    margin: 0
+}
+
+.logo {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-weight: 900;
+    background: var(--box-gradient);
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo span {
+    color: var(--secondary-color);
+    transform: scale(1.2);
+}
+
+
+@media (min-width: 700px) {
+    .navBar {
+        padding: 1.2rem 7rem;
+    }
+	
+}

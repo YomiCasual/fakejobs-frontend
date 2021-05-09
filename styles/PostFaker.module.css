@@ -1,0 +1,32 @@
+.formClass {
+	padding: 0.5rem 2rem;
+	margin-top: 1rem;
+}
+
+.radio {
+	padding: 0.5rem 2rem;
+	margin-top: 2rem;
+}	
+
+.singleRadio {
+	margin-right: 1rem
+}
+
+.input {
+	box-shadow: none;
+	margin-right: 0.4rem;
+	cursor: pointer;
+}
+.label {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+@media (min-width: 700px) {
+
+	.formClass, .radio {
+		padding: 0.5rem 7rem;
+	}
+
+}

@@ -1,0 +1,29 @@
+.card {
+    border: 2px solid var(--primary-color);
+    padding: 1rem 1.5rem;
+    border-radius: 6px;
+    transition: var(--transition);
+    cursor: pointer
+}
+
+.name {
+    font-size: 24px;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.address {
+    font-size: 16;
+    color:var(--primary-black)
+}
+
+.card:hover {
+    background-color: var(--primary-color);
+    color: white!important;
+    transform: translateY(-10px);
+    box-shadow: var(--shadow);
+}
+.card:hover .address, .card:hover .name {
+    color: white
+}
+

@@ -1,0 +1,23 @@
+.alert {
+	position: absolute;
+	top: 70px;
+    text-align:  center;
+	right: 20px;
+	padding: 0.3rem 2rem;
+    background-color: white;
+    box-shadow: var(--shadow);
+    cursor: pointer
+}
+
+.title {
+	font-size: 18px;
+	font-weight: 700;
+    margin-bottom: 0.1rem;
+    margin-top: 1rem
+}
+
+.subtitle {
+	font-size: 12px;
+    font-weight: 600;
+    margin-top: 0.4rem;
+}
