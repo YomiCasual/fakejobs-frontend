@@ -30,6 +30,16 @@ a {
 	--text-gradient: -webkit-linear-gradient(45deg, #43797c, #271e5e);
 	--box-gradient: linear-gradient(97deg, #CD57F6 10%, var(--primary-color));
 	--box-gradient-hover: linear-gradient(97deg, var(--primary-color), var(--primary-color));
+	--slideUp-animation: slideUp 0.5s ease-out
+}
+
+.slide-up {
+	animation: var(--slideUp-animation);
+}
+
+.slide-up-delay {
+	animation: slideUp 0.5s ease-out 1s;
+	animation-fill-mode: backwards;
 }
 
 .background {
@@ -242,4 +252,16 @@ a {
 .not-found p {
 	font-size: 16px;
 	color: var(--primary-black)
+}
+
+
+@keyframes  slideUp {
+		0%{
+			opacity: 0;
+			transform: translateY(2rem);
+		}
+		100%{
+			opacity: 1;
+			transform: translateY(0);
+		}
 }

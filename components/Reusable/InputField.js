@@ -8,7 +8,7 @@ const InputField = ({findFakeJob}) => {
     findFakeJob(value)
     }
     return (
-        <form onSubmit={formSubmit}>
+        <form onSubmit={formSubmit} className="slide-up-delay">
           <input type="text"  placeholder="Search by name or address..." className="search-input" value={value}
             onChange={(e) => setValue(e.target.value)}
           />    

@@ -11,7 +11,7 @@ const Navbar = () => {
 			</div>
 			<div>
                 <Link href='/postfaker' className='button'>
-                <button className="button">
+                <button className="button slide-up">
 					Post a FakeJob
                 </button>
 				</Link>

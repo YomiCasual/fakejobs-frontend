@@ -68,11 +68,19 @@ export default function Home({ data }) {
 }
 
 export async function getStaticProps() {
-	const res = await fetch(api.GET_FAKE_JOBS, {
-		method: 'POST',
-	});
-	const data = await res.json();
-
+	let data
+	try {
+		const res = await fetch(api.GET_FAKE_JOBS, {
+			method: 'POST',
+		});
+		data = await res.json();
+	
+	
+	} catch (error) {
+		data = {
+			data: []
+		}
+	}
 	return {
 		props: {
 			data,

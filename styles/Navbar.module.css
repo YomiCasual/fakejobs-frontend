@@ -20,6 +20,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: var(--slideUp-animation)
 }
 
 .logo span {
@@ -34,3 +35,5 @@
     }
 	
 }
+
+

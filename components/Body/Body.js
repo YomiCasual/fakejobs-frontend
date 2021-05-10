@@ -5,7 +5,7 @@ import Card from '../Reusable/Card/Card';
 
 const Body = ({ fakeJobs, loadMore, currentData }) => {
 	return (
-		<React.Fragment>
+		<section className="move-in-left-delay">
 			{fakeJobs.length === 0 ? (
 				<NotFound />
 			) : (
@@ -28,7 +28,7 @@ const Body = ({ fakeJobs, loadMore, currentData }) => {
 					}
 				</>
 			)}
-		</React.Fragment>
+		</section>
 	);
 };
 
